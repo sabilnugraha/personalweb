@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+ 
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    position: static;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(231, 223, 223);
+    height: 7vh;
+    position: sticky;
+}
+
+nav div {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+    width: 7vh;
+    height: 7vh;
+    margin-bottom: 0px;
+}
+
+nav .left-side {
+    flex: 50%;
+}
+
+nav .right-side {
+    flex: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .right-side a {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.blog {
+    margin-top: -10px;
+    background-color: rgb(241, 241, 241);
+    padding: 0;
+    margin-bottom: -10px;
+}
+
+
+.container-main {
+    display: flex;
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+}
+
+.main-box {
+    width: 80%;
+    background-color: rgb(243, 243, 243);
+}
+
+.main-box .left-box {
+    flex: 60%;
+}
+
+.main-box .right-box {
+    flex: 40%;
+    display: flex;
+
+}
+
+.main-box .right-box .content {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+.body .form .date {
+    background-color: red;
+}
+
+.detail-blog-content {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;

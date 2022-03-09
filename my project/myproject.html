@@ -1,0 +1,206 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="myproject.css">
+        
+    </head>
+    <body >
+        <nav>
+            <div class="left-side">
+            <img src="../dw.png">
+            
+            <ul>
+                <li><a href="../index.html"> <strong>Home</strong></a></li>
+                <li><a href="">My Project</a></li>
+            </ul>
+            </div>
+            
+            <div class="right-side">
+            <a href="#"
+            style="background-color:black;">Contact Me</a>
+            </div>
+        </nav>
+    <div class= "blog" style="
+    height: 750px;
+    ">
+        <h2 style="
+        text-align:center;
+        margin-top: 10px;
+        padding-top: 50px;
+        ">ADD MY PROJECT</h2>
+        <form style="width: 400px; margin: auto; margin-top: 50px;">
+            <div style="margin-top: 10px;">
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <label for="input-project" style="font-size: 23px; font-weight: 700px;"> Project Name</label>
+                <input
+                    type="text"
+                    id="input-project"
+                    style="
+                        width: 100%;
+                        padding: 14px;
+                        border: 1px solid rgb(206, 206, 206);
+                        margin-top: 2px;
+                        box-shadow: 0px 2px 2px;
+                        ">
+            </div>
+            <div class= "date">
+            <div class= "right-input" style="margin-bottom: 20px;">
+                <label for="startdate" style="font-size: 23px; font-weight: 700px;">Start Date</label>
+                <input
+                    type="date"
+                    id="startdate"
+                    style="
+                        width: 100%;
+                        padding: 14px;
+                        border: 1px solid rgb(206, 206, 206);
+                        margin-top: 2px;
+                        box-shadow: 0px 2px 4px;
+                        
+                        ">
+                        </div>
+            
+        
+        <div class="left-input" style="margin-bottom: 20px;">
+            <label for="enddate" style="font-size: 23px; font-weight: 700px;">End Date</label>
+            <input
+                type="date"
+                id="enddate"
+                style="
+                    width: 100%;
+                    padding: 14px;
+                    border: 1px solid rgb(206, 206, 206);
+                    margin-top: 2px;
+                    box-shadow: 0px 2px 4px;
+                    
+                    ">
+        </div>
+        </div>
+
+        
+    
+
+    <div style="margin-bottom: 20px;">
+        <label for="Description" style="font-size: 23px; font-weight: 700px;">Description</label>
+        <textarea
+            type="text area"
+            id="Description"
+            style="
+                width: 100%;
+                height: 90px;
+                padding: 14px;
+                border: 1px solid rgb(233, 233, 233);
+                margin-top: 2px;
+                box-shadow: 0px 2px 4px;
+                "></textarea>
+    </div>
+    <h3>Technologies</h3>
+    <div style="display: flex";>
+            
+            <div style="flex: 50%;">
+               
+                <input 
+                id="Node JS" 
+                type="checkbox"
+                value="Node JS"
+                class="checkbox"><label
+                style="
+                margin-left: 30px;"
+                for="Node JS">Node JS</label>
+                <br>
+                <input 
+                id="React JS" 
+                type="checkbox"
+                Value= "React JS"
+                class="checkbox"><label 
+                style="
+                margin-left: 30px;"
+                For="React JS">React JS</label>
+            </div>
+            
+            <div style="flex: 50%">        
+                <input 
+                id="Next JS" 
+                type="checkbox" 
+                value="Next JS"
+                class="checkbox"><label 
+                style="
+                margin-left: 30px;"
+                For="Next JS">Next JS</label>
+                <br>
+                <input 
+                id="TypeScript" 
+                type="checkbox"
+                value="TypeScript"
+                class="checkbox"
+                ><label 
+                style="
+                margin-left: 30px;"
+                for="TypeScript">TypeScript</label>
+            </div>
+            
+    </div>
+            <h3>Upload Image</h3>
+            <div  for="input-blog-image" style="
+            border: 1px solid rgb(206, 206, 206); 
+            background-color: white; padding-top: 9px; 
+            padding-bottom: 9px;
+            border-radius: 6px;
+            box-shadow: 0px 2px 2px;">
+                <label class="image" for="input-blog-image" 
+                style="
+                border: 1px solid rgb(206, 206, 206);
+                color:rgb(19, 18, 18); 
+                background-color:rgb(224, 224, 224);
+                padding:10px;
+                border-radius: 6px;
+                box-shadow: 0px 2px 2px;
+
+                ">Choose</label>
+                <input id="input-blog-image" type="file" style="background-color: white;" hidden/>
+                <img src="clip.png"
+                style="height: 18px; width: 18px; margin-top: 3px; float: right;
+                ">
+                
+            </div>
+
+    <button 
+        type="button"
+        onclick="addblog()"
+        style="
+        background-color:black;
+        float:right;
+        color:white;
+        border-radius: 20px;
+        padding-top:7px;
+        padding-right: 9px;
+        padding-left: 9px;
+        padding-bottom: 7px;
+        margin-top:10px;
+        width: 120px;
+        ;">submit</button>
+        </form>
+
+        
+        
+    </div>
+    <h2 style="
+        text-align:center;
+        margin-top: 10px;
+        padding-top: 50px;
+        ">MY PROJECT</h2>
+
+<div id= "content" class="blog-list" style="margin:auto;">
+   
+
+
+   
+</div>
+
+
+    <script src="myproject.js"></script>
+           
+    </body>
+    
+</html>
